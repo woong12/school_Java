@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class A0330 {
     public static void main(String[] args) {
@@ -6,9 +6,9 @@ public class A0330 {
          * 18
         int a = 10;
         if (a % 2 == 0) {
-            System.out.println(a + "Àº(´Â) Â¦¼öÀÔ´Ï´Ù.");
+            System.out.println(a + "ï¿½ï¿½(ï¿½ï¿½) Â¦ï¿½ï¿½ï¿½Ô´Ï´ï¿½.");
         } else {
-            System.out.println(a + "Àº(´Â) È¦¼öÀÔ´Ï´Ù.");
+            System.out.println(a + "ï¿½ï¿½(ï¿½ï¿½) È¦ï¿½ï¿½ï¿½Ô´Ï´ï¿½.");
         }
          */
 
@@ -26,7 +26,7 @@ public class A0330 {
          } else if (op == '/') {
             System.out.println(a + " / " + b + " = " + (a / b));
          } else {
-            System.out.println("»çÄ¢¿¬»êÀÚ°¡ ¾Æ´Õ´Ï´Ù.");
+            System.out.println("ï¿½ï¿½Ä¢ï¿½ï¿½ï¿½ï¿½ï¿½Ú°ï¿½ ï¿½Æ´Õ´Ï´ï¿½.");
          }
          */
 
@@ -34,9 +34,9 @@ public class A0330 {
           * 20
          int a = 10;
          if (a) {
-            System.out.println(a + "´Â 0ÀÌ ¾Æ´Õ´Ï´Ù.");
+            System.out.println(a + "ï¿½ï¿½ 0ï¿½ï¿½ ï¿½Æ´Õ´Ï´ï¿½.");
          } else {
-            System.out.println(a + "´Â 0ÀÔ´Ï´Ù.");
+            System.out.println(a + "ï¿½ï¿½ 0ï¿½Ô´Ï´ï¿½.");
          }
           */
 
@@ -59,7 +59,7 @@ public class A0330 {
                 System.out.println( a + " / " + b + " = " + (a / b));
           
             default:
-            System.out.println("»çÄ¢¿¬»êÀÚ°¡ ¾Æ´Õ´Ï´Ù.");
+            System.out.println("ï¿½ï¿½Ä¢ï¿½ï¿½ï¿½ï¿½ï¿½Ú°ï¿½ ï¿½Æ´Õ´Ï´ï¿½.");
           }
           */
 
@@ -69,11 +69,11 @@ public class A0330 {
           int a = 7;
           switch(a % 3) {
             case 0:
-                System.out.println( a + "Àº(´Â) 3ÀÇ ¹è¼öÀÔ´Ï´Ù.");
+                System.out.println( a + "ï¿½ï¿½(ï¿½ï¿½) 3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.");
                 break;
             case 1:
             case 2:
-                System.out.println( a + "Àº(´Â) 3ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù.");
+                System.out.println( a + "ï¿½ï¿½(ï¿½ï¿½) 3ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´Õ´Ï´ï¿½.");
                 break;
           }
            */
@@ -81,7 +81,7 @@ public class A0330 {
            /**
             * 23
            Scanner sc = new Scanner(System.in);
-           System.out.println("´Þ ÀÔ·Â : ");
+           System.out.println("ï¿½ï¿½ ï¿½Ô·ï¿½ : ");
            int a = sc.nextInt();
            int day;
            switch(a) {
@@ -103,7 +103,7 @@ public class A0330 {
                 default:
                     day = 28;
            }
-           System.out.println( a + "¿ùÀº " + day + "ÀÏÀÔ´Ï´Ù.");
+           System.out.println( a + "ï¿½ï¿½ï¿½ï¿½ " + day + "ï¿½ï¿½ï¿½Ô´Ï´ï¿½.");
         */
 
         /**
@@ -131,7 +131,7 @@ public class A0330 {
                 odd_sum += i;
             }
         }
-        System.out.println("1ºÎÅÍ 10 ±îÁöÀÇ Â¦¼öÀÇ ÇÕÀº " + even_sum + "ÀÌ°í, " + " È¦¼ö ÇÕÀº " + odd_sum + "ÀÔ´Ï´Ù.");
+        System.out.println("1ï¿½ï¿½ï¿½ï¿½ 10 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Â¦ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ " + even_sum + "ï¿½Ì°ï¿½, " + " È¦ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ " + odd_sum + "ï¿½Ô´Ï´ï¿½.");
           */
 
         

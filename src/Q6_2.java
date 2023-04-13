@@ -1,4 +1,4 @@
-public class Q62 {
+public class Q6_2 {
     public static void main(String[] args) {
         int num1 = 3;
         int num2 = 7;
