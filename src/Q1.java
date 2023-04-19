@@ -5,19 +5,17 @@ public class Q1 {
         System.out.println("정수5 개를 입력해 주세요.");
         Scanner sc = new Scanner(System.in);
 
-        int[] arr = new int[5];
+        int[] num = new int[5];
         int max = 0;
         int i = 0;
-        int sum = 1;
-        while (i < arr.length) {
-            System.out.printf("%d번째 정수 : ", sum);
-            arr[i] = sc.nextInt();
+        while (i < num.length) {
+            System.out.printf((i + 1) + "번째 정수 : ");
+            num[i] = sc.nextInt();
 
-            if (arr[i] > max) {
-                max = arr[i];
+            if (num[i] > max) {
+                max = num[i];
             }
 
-            sum++;
             i++;
         }
         sc.close();

@@ -1,22 +1,23 @@
 public class Q2 {
     public static void main(String[] args) {
 
-        for(int i = 0; i < 3; i++) {
-            for(int j = 1; j < 5; j++) {
+        for(int i = 1; i <= 3; i++) {
+            for(int j = 1; j <= 4 ; j++) {
                 System.out.print(j);
             }
             System.out.println();
         }
         System.out.println();
 
-        for(int k = 1; k < 5; k++) {
-            for(int l = 0; l < 3; l++) {
+        for(int k = 1; k <= 4; k++) {
+            for(int l = 1; l <= 3; l++) {
                 System.out.print(k);
             }
             System.out.println();
         }
+        System.out.println();
 
-        for (int m = 0; m <= 4; m++) {
+        for (int m = 1; m <= 4; m++) {
             for (int n = 1; n <= m; n++) {
                 System.out.print(n);
             }

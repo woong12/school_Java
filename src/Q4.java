@@ -24,7 +24,7 @@ public class Q4 {
                 sum += score[i][j];
             }
             System.out.print(name[i] + "학생의 총점은" + sum + "점이고, ");
-            avg = (double) sum / 3;
+            avg = sum / 3.0;
             System.out.printf("평균은 %.2f점 입니다.\n", avg);
             if (avg >= 90) {
                 System.out.println(name[i] + "학생의 학점은 A입니다.");
