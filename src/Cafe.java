@@ -1,7 +1,7 @@
 public class Cafe {
-    private int coffee;
-    private int sugar;
-    private int cream;
+    public int coffee;
+    public int sugar;
+    public int cream;
 
     public void makeTea(int coffee, int sugar, int cream) {
         this.coffee = coffee;
