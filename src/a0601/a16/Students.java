@@ -1,4 +1,4 @@
-package a0601;
+package a0601.a16;
 public class Students{
     String name;
     String hakbun;

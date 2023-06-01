@@ -1,4 +1,4 @@
-package a0601;
+package a0601.a16;
 public class LeaderMain {
     public static void main(String[] args) {
         Leader hong = new Leader("홍길동", "30130", true);

@@ -1,4 +1,4 @@
-package a0601;
+package a0601.a16;
 public class Leader extends Students{
     // 맴버 변수
     boolean lead;
