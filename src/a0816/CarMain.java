@@ -9,6 +9,8 @@ public class CarMain {
         myCar.speed = 50;
         myCar.printCar();
 
-
+        Car yourCar = new Car("G80", 70);
+        yourCar.speedUp();
+        yourCar.printCar();
     }
 }
